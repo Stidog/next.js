@@ -472,7 +472,7 @@ export function getUtils({
         })
       )
       res.statusCode = TEMPORARY_REDIRECT_STATUS
-      res.end()
+      res.end("")
       return
     }
 
